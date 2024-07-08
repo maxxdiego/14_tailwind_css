@@ -59,7 +59,7 @@ module.exports = {
   plugins: [],
 }
 ```
-*content: ["./src/**/*.{html,js}"]: Esta configuração informa ao Tailwind CSS quais arquivos ele deve analisar para procurar classes CSS a serem incluídas na build final. No caso, ele está configurado para analisar todos os arquivos HTML e JS dentro da pasta src e suas subpastas.*
+_content: ["./src/**/*.{html,js}"]: Esta configuração informa ao Tailwind CSS quais arquivos ele deve analisar para procurar classes CSS a serem incluídas na build final. No caso, ele está configurado para analisar todos os arquivos HTML e JS dentro da pasta src e suas subpastas._
 
 * Podemos seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
 
