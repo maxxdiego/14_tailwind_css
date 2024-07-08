@@ -33,6 +33,15 @@
 * O VS Code facilita as tarefas com o terminal integrado e as suas extensões;
 * Podemos seguir as instruções do site: code.visualstudio.com
 
+## Instalando o Tailwind 3+
+* Instale o tailwindcss via npm e crie seu arquivo tailwind.config.js.
+```bash
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+* Podemos seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
+
 
 
 
