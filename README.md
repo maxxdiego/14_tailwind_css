@@ -13,6 +13,14 @@
 * Podemos criar componentes;
 * Facilidade em customização;
 
+## Propósitos do Tailwind
+
+* Diminuir o tempo que passamos codificando CSS;
+* Permitir ampla liberdade entre os componentes que criamos;
+* Facilidade em estender e customizar;
+* Acoplagem em diversos ambientes, com ou sem framework front-end;
+* Dificuldade zero para começar com mobile first;
+
 
 
 
