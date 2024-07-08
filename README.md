@@ -108,6 +108,8 @@ src/index.html:
 </html>
 ```
 
+* Para conferir, você pode executar o arquivo "index.html" no Live Server e verificar as alterações.
+
 * Você também pode seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
 
 # Autor
