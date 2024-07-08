@@ -110,6 +110,22 @@ src/index.html:
 
 * Para conferir, você pode executar o arquivo "index.html" no Live Server e verificar as alterações.
 
+* Instalando o Live Server
+```bash
+npm install -g live-server
+```
+
+* Executando o Live Server
+```bash
+live-server src/
+```
+
+* Acessar a página através do endereço fornecido pelo Live Server
+
+```bash
+Serving "src/" at http://127.0.0.1:51283
+```
+
 * Você também pode seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
 
 # Autor
