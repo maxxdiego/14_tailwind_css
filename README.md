@@ -21,6 +21,18 @@
 * Acoplagem em diversos ambientes, com ou sem framework front-end;
 * Dificuldade zero para começar com mobile first;
 
+## Instalação Node
+
+* O Tailwind não necessita do Node, porém facilita muito a instalação do mesmo;
+* Caso você utilize o Tailwind com algum framework como React, isso ajudará;
+* Podemos seguir as instruções do site: www.nodejs.org
+
+## Instalação VS Code
+
+* O VS Code é com certeza um dos editores mais utilizados atualmente;
+* O VS Code facilita as tarefas com o terminal integrado e as suas extensões;
+* Podemos seguir as instruções do site: code.visualstudio.com
+
 
 
 
