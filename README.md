@@ -39,6 +39,7 @@
 npm install -D tailwindcss
 npx tailwindcss init
 ```
+O parâmetro -D no comando npm install -D tailwindcss é uma abreviação de --save-dev. Ele indica que o pacote tailwindcss deve ser instalado como uma dependência de desenvolvimento no seu projeto. Dependências de desenvolvimento são pacotes necessários apenas durante o desenvolvimento do projeto e não são necessárias em produção.
 
 * Podemos seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
 
