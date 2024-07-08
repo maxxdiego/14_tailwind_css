@@ -34,12 +34,32 @@
 * Podemos seguir as instruções do site: code.visualstudio.com
 
 ## Instalando o Tailwind 3+
-* Instale o tailwindcss via npm e crie seu arquivo tailwind.config.js.
+
+* Instale o tailwindcss via npm com o seguinte comando:
 ```bash
 npm install -D tailwindcss
-npx tailwindcss init
 ```
 *O parâmetro -D no comando npm install -D tailwindcss é uma abreviação de --save-dev. Ele indica que o pacote tailwindcss deve ser instalado como uma dependência de desenvolvimento no seu projeto. Dependências de desenvolvimento são pacotes necessários apenas durante o desenvolvimento do projeto e não são necessárias em produção.*
+
+
+* Crie o arquivo tailwind.config.js através do comando:
+```bash
+npx tailwindcss init
+```
+
+* Fazer as alterações no arquivo tailwind.config.js de acordo com seu projeto:
+
+```bash
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+*content: ["./src/**/*.{html,js}"]: Esta configuração informa ao Tailwind CSS quais arquivos ele deve analisar para procurar classes CSS a serem incluídas na build final. No caso, ele está configurado para analisar todos os arquivos HTML e JS dentro da pasta src e suas subpastas.*
 
 * Podemos seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
 
