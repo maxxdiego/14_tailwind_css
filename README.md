@@ -61,7 +61,54 @@ module.exports = {
 ```
 _content: ["./src/**/*.{html,js}"]: Esta configuração informa ao Tailwind CSS quais arquivos ele deve analisar para procurar classes CSS a serem incluídas na build final. No caso, ele está configurado para analisar todos os arquivos HTML e JS dentro da pasta src e suas subpastas._
 
-* Podemos seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
+* Crie a pasta "src" na raiz do projeto e em seguida poderá criar os arquivos "index.html" e "input.css"
+
+```bash
+src\index.html
+src\input.css
+```
+
+* Adicione as diretivas @tailwind para cada uma das camadas do Tailwind ao seu arquivo CSS principal.
+
+```bash
+src\input.css:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+* Inicie o processo de build do Tailwind CLI. Execute o comando abaixo para escanear seus arquivos de template em busca de classes e construir seu CSS.
+
+```bash
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+```
+
+* Comece a usar o Tailwind no seu HTML. Adicione seu arquivo CSS compilado ao <head> e comece a usar as classes utilitárias do Tailwind para estilizar seu conteúdo.
+
+```bash
+src/index.html:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Tailwind Setup</title>
+</head>
+
+<body>
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+    </h1>
+</body>
+
+</html>
+```
+
+* Você também pode seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
 
 
 
