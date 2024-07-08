@@ -128,6 +128,17 @@ Serving "src/" at http://127.0.0.1:51283
 
 * Você também pode seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
 
+### Instalação do Tailwind Intellisense
+
+* O Intellisense é uma extensão excelente para o Tailwind;
+* Vai nos ajudar na criação dos projetos, auto completando as classes do framework;
+* E em alguns casos mostra um preview do que utilizaremos;
+
+No VS Code procure pela extensão e realize sua instação:
+```bash
+Tailwind CSS IntelliSense
+```
+
 # Autor
 
 Prof. Diego Max da Silva<br>
