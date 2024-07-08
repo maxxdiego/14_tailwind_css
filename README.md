@@ -33,13 +33,7 @@
 * O VS Code facilita as tarefas com o terminal integrado e as suas extensões;
 * Podemos seguir as instruções do site: code.visualstudio.com
 
-## Instalando o Tailwind
-
-* Primeiramente será necessário instalar o Tailwind no projeto via npm;
-* Em seguida, será criado um arquivo CSS que irá conter as diretivas do Tailwind;
-* Por fim, será necessário buildar o arquivo baseado no arquivo de configuração criado, apontando para a saída que é o arquivo final de CSS.
-
-Os passos a seguir irão te guiar para isso:
+## Instalando o Tailwind 3+
 
 * Instale o tailwindcss via npm com o seguinte comando:
 ```bash
@@ -115,6 +109,22 @@ src/index.html:
 ```
 
 * Para conferir, você pode executar o arquivo "index.html" no Live Server e verificar as alterações.
+
+* Instalando o Live Server
+```bash
+npm install -g live-server
+```
+
+* Executando o Live Server
+```bash
+live-server src/
+```
+
+* Acessar a página através do endereço fornecido pelo Live Server
+
+```bash
+Serving "src/" at http://127.0.0.1:51283
+```
 
 * Você também pode seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
 
