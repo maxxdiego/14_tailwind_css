@@ -64,14 +64,14 @@ _content: ["./src/**/*.{html,js}"]: Esta configuração informa ao Tailwind CSS 
 * Crie a pasta "src" na raiz do projeto e em seguida poderá criar os arquivos "index.html" e "input.css"
 
 ```bash
-src\index.html
-src\input.css
+src/index.html
+src/input.css
 ```
 
 * Adicione as diretivas @tailwind para cada uma das camadas do Tailwind ao seu arquivo CSS principal.
 
 ```bash
-src\input.css:
+src/input.css:
 
 @tailwind base;
 @tailwind components;
@@ -110,8 +110,7 @@ src/index.html:
 
 * Você também pode seguir as instruções na documentação em: www.tailwindcss.com/docs/installation
 
+# Autor
 
-
-
-
-
+Prof. Diego Max da Silva<br>
+https://lattes.cnpq.br/4370663836049458
