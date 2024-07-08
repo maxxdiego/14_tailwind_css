@@ -61,14 +61,14 @@ module.exports = {
 ```
 _content: ["./src/**/*.{html,js}"]: Esta configuração informa ao Tailwind CSS quais arquivos ele deve analisar para procurar classes CSS a serem incluídas na build final. No caso, ele está configurado para analisar todos os arquivos HTML e JS dentro da pasta src e suas subpastas._
 
-* Crie a pasta "src" na raiz do projeto e em seguida poderá criar os arquivos "index.html" e "input.css"
+* Crie a pasta "src" na raiz do projeto e em seguida poderá criar os arquivos "index.html" e "input.css":
 
 ```bash
 src/index.html
 src/input.css
 ```
 
-* Adicione as diretivas @tailwind para cada uma das camadas do Tailwind ao seu arquivo CSS principal.
+* Adicione as diretivas @tailwind para cada uma das camadas do Tailwind ao seu arquivo CSS principal:
 
 ```bash
 src/input.css:
@@ -78,7 +78,7 @@ src/input.css:
 @tailwind utilities;
 ```
 
-* Inicie o processo de build do Tailwind CLI. Execute o comando abaixo para escanear seus arquivos de template em busca de classes e construir seu CSS.
+* Inicie o processo de build do Tailwind CLI. Execute o comando abaixo para escanear seus arquivos de template em busca de classes e construir seu CSS:
 
 ```bash
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
@@ -110,17 +110,17 @@ src/index.html:
 
 * Para conferir, você pode executar o arquivo "index.html" no Live Server e verificar as alterações.
 
-* Instalando o Live Server
+* Instalando o Live Server:
 ```bash
 npm install -g live-server
 ```
 
-* Executando o Live Server
+* Executando o Live Server:
 ```bash
 live-server src/
 ```
 
-* Acessar a página através do endereço fornecido pelo Live Server
+* Acessar a página através do endereço fornecido pelo Live Server:
 
 ```bash
 Serving "src/" at http://127.0.0.1:51283
