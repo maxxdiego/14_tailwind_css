@@ -7,17 +7,17 @@
 * Podemos adicionar classe para determinados break points (responsivo);
 * Podemos também criar nossas classes com base em classes;
 
-* Definindo o fundo do texto com a cor verde:
+Definindo o fundo do texto com a cor verde:
 ```bash
 <h1 class="bg-green-500>Tudo são classes!</h1>
 ```
 
-* Definindo o fundo do texto com a cor verde e a cor do texto vermelho:
+Definindo o fundo do texto com a cor verde e a cor do texto vermelho:
 ```bash
 <h1 class="bg-green-500 text-red-300>Tudo são classes!</h1>
 ```
 
-* Definindo o comportamento de hover (passar o mouse por cima). O fundo será alterado para a cor vermelha e a cor do texto para verde:
+Definindo o comportamento de hover (passar o mouse por cima). O fundo será alterado para a cor vermelha e a cor do texto para verde:
 ```bash
 <h1 class="bg-green-500 text-red-300 hover:bg-red-300 hover:text-green-500">Tudo são classes!</h1>
 ```
