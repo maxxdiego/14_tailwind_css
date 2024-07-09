@@ -34,10 +34,12 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 * Então um elemento com classe inline-block, se comporta igual a um elemento com estilo de display: inline-block;
 * As outras propriedades seguem a mesma lógica;
 
-### Fontes:
-* _Curso: Tailwind CSS do básico ao avançado + Projetos_
-_Hora de Codar - Escola de programação - Matheus Battisti_
+<hr>
 
 ### Autor
 Prof. Diego Max da Silva<br>
 https://lattes.cnpq.br/4370663836049458
+
+### Referências:
+* _Curso: Tailwind CSS do básico ao avançado + Projetos_
+* _Hora de Codar - Escola de programação - Matheus Battisti_
