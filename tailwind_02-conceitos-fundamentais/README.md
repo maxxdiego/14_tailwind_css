@@ -1,6 +1,6 @@
-## 02 - Conceitos fundamentais
+# 02 - Conceitos fundamentais
 
-### Tudo é classe
+## Tudo é classe
 
 * Estilizamos o nosso projeto todo por meio de classes;
 * Temos classes desde cor de fonte até pseudo seletores(hover);
@@ -22,7 +22,7 @@ Definindo o comportamento de hover (passar o mouse por cima). O fundo será alte
 <h1 class="bg-blue-500 text-red-300 hover:bg-red-300 hover:text-blue-500">Tudo são classes!</h1>
 ```
 
-### Utility First
+## Utility First
 
 "Utility First" é uma abordagem de design e desenvolvimento de interfaces de usuário (UI) que se concentra em utilizar classes utilitárias para estilizar componentes diretamente no HTML, ao invés de definir estilos em arquivos CSS separados. Esta metodologia é amplamente popularizada por frameworks como Tailwind CSS.
 
@@ -91,7 +91,7 @@ Criando botões personalizados através de um conjunto de classes:
     <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Botão</button>
 ```
 
-### Responsivo - Mobile first
+## Responsivo - Mobile first
 
 * Todas as classes podem ser aplicadas a um determinado breakpoint;
 * Os que vem com o framework são: sm, md, lg e xl;
@@ -122,7 +122,7 @@ Por fim, adicionaremos um breakpoint com a classe "xl" (extra large) que terá "
 <div class="w-4 md:w-6 lg:w-10 md:h-6 lg:h-10 h-4 m-4 bg-green-400 md:bg-blue-400 lg:bg-red-400 xl:bg-gray-900"></div>
 ```
 
-### Pseudo classes
+## Pseudo classes
 * Podemos atingir as pseudo classes com Tailwind também;
 * Um exemplo seria o hover, quando passamos o ponteiro do mouse em cima de um elemento;
 * Desta maneira basta adicionar: hover:classe;
@@ -137,7 +137,7 @@ No exemplo abaixos, criamos um input que ao ser clicado (pseudo classe: focus) t
     </div>
 ```
 
-### Componentes
+## Componentes
 
 * Em Tailwind somos encorajados a não utilizar componentes prontos;
 * Primeiramente desenvolvemos o que precisamos e depois podemos transformar em um componente (via apply);
@@ -145,7 +145,7 @@ No exemplo abaixos, criamos um input que ao ser clicado (pseudo classe: focus) t
 
 
 
-# Autor
+## Autor
 
 Prof. Diego Max da Silva<br>
 https://lattes.cnpq.br/4370663836049458
