@@ -46,12 +46,12 @@ Aqui estão alguns exemplos de como o Utility First pode ser usado com Tailwind 
 Sem Utility First (CSS tradicional):
 HTML:
 
-*HTML:
+* HTML:
 ```bash
 <button class="btn">Button</button>
 ```
 
-*CSS:
+* CSS:
 
 ```bash
 .btn {
@@ -63,16 +63,16 @@ HTML:
 
 Com Utility First (Tailwind CSS):
 
-*HTML:
+* HTML:
 ```bash
 <button class="bg-blue-500 p-4 rounded-md">Button</button>
 ```
 
 ### Benefícios do Utility First:
--Rapidez no desenvolvimento: Menos necessidade de alternar entre arquivos HTML e CSS.
-- Menos CSS personalizado: Reduz a quantidade de CSS específico do projeto, diminuindo o risco de problemas de escopo e conflito de estilos.
-- Melhora na consistência: Facilita a criação de interfaces consistentes sem variações indesejadas no design.
-- Em resumo, a abordagem Utility First simplifica o processo de estilização de componentes, promovendo um desenvolvimento mais rápido e uma manutenção mais fácil, ao mesmo tempo que garante a consistência no design da aplicação.
+Rapidez no desenvolvimento: Menos necessidade de alternar entre arquivos HTML e CSS.
+Menos CSS personalizado: Reduz a quantidade de CSS específico do projeto, diminuindo o risco de problemas de escopo e conflito de estilos.
+Melhora na consistência: Facilita a criação de interfaces consistentes sem variações indesejadas no design.
+Em resumo, a abordagem Utility First simplifica o processo de estilização de componentes, promovendo um desenvolvimento mais rápido e uma manutenção mais fácil, ao mesmo tempo que garante a consistência no design da aplicação.
 
 * A premissa do Tailwind é construir componentes complexos com um conjunto de utilitários;
 * Ou seja, em vez de pegar um componente pronto ou codar muitas linhas de CSS, utilizamos um conjunto de classes;
