@@ -9,6 +9,10 @@
 </head>
 
 <body>
+    <h1 class="text-4xl font-bold py-4 px-2">Conceitos fundamentais do Tailwind:</h1>
+
+    <br>
+
     <h1 class="bg-blue-500 text-red-300 hover:bg-red-300 hover:text-blue-500">Tudo são classes!</h1>
 
     <br>
@@ -19,9 +23,27 @@
 
     <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Botão</button>
 
+    <br><br>
+
+    <p>Responsividade (breakpoints):</p><br>
+    <p class="text-sm">Aumente ou diminua a janela do navegador!</p>
+    <div class="w-16 md:w-24 lg:w-40 md:h-24 lg:h-40 h-16 m-4 bg-green-400 md:bg-blue-400 lg:bg-red-400 xl:bg-gray-900">
+    </div>
+
     <br>
 
-    <div class="w-4 md:w-6 lg:w-10 md:h-6 lg:h-10 h-4 m-4 bg-green-400 md:bg-blue-400 lg:bg-red-400 xl:bg-gray-900"></div>
+    <p>Pseudo classes:</p>
+    <div>
+        <input type="text" placeholder="Clique em mim e digite!"
+            class="bg-gray-300 text-gray-900 focus:bg-red-600 focus:text-red-400">
+    </div>
+
+    <br>
+
+    <p>Componentizando botões:</p>
+    <button class="btn-blue">Botão</button>
+
+    <button class="btn-green">Botão</button>
 
 </body>
 
