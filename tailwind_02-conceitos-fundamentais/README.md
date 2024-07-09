@@ -74,6 +74,8 @@ Menos CSS personalizado: Reduz a quantidade de CSS específico do projeto, dimin
 Melhora na consistência: Facilita a criação de interfaces consistentes sem variações indesejadas no design.
 Em resumo, a abordagem Utility First simplifica o processo de estilização de componentes, promovendo um desenvolvimento mais rápido e uma manutenção mais fácil, ao mesmo tempo que garante a consistência no design da aplicação.
 
+Resumindo:
+
 * A premissa do Tailwind é construir componentes complexos com um conjunto de utilitários;
 * Ou seja, em vez de pegar um componente pronto ou codar muitas linhas de CSS, utilizamos um conjunto de classes;
 * E desta maneira podemos criar diversas variações de componentes de forma simples;
