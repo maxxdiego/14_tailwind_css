@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="css/output.css">
     <title>Document</title>
 </head>
 
@@ -17,17 +17,6 @@
 
     <br />
 
-    <h3 class="font-bold">Exercício 01:</h3>
-
-    <p>Crie um container com cor de background verde;</p>
-    <p>Quando atingir md, deve ficar azul.</p>
-
-    <div class="container bg-green-300 p-4 my-4 text-green-900 md:bg-blue-300 md:text-blue-900">
-        Resolução do exercício
-    </div>
-
-    <hr>
-
     <h3 class="text-3xl">Box sizing</h3>
 
     <div class="container bg-purple-700 border-2 border-purple-900 m-4 border-box p-10">
@@ -36,6 +25,22 @@
 
     <div class="container bg-teal-400 border-2 border-teal-900 m-4 box-content p-10">
         <p>Border content</p>
+    </div>
+
+    <h3 class="text-3xl">Display</h3>
+
+    <div class="container">
+        <span class="block bg-red-300">SPAN por padrão não são elementos de bloco. Se tornaram pela classe.</span>
+        <span class="block bg-red-300">SPAN por padrão não são elementos de bloco. Se tornaram pela classe.</span>
+
+        <div class="inline-block bg-blue-500">DIV por padrão são elementos de bloco. Se tornaram inline-block pela
+            classe.</div>
+        <div class="inline-block bg-blue-500">DIV por padrão são elementos de bloco. Se tornaram inline-block pela
+            classe.</div>
+
+        <div class="bg-green-900 hidden">
+            Não estou aparecendo! Tenho a classe hidden.
+        </div>
     </div>
 
 </body>

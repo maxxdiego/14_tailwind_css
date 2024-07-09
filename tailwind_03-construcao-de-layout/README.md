@@ -34,6 +34,22 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 * Então um elemento com classe inline-block, se comporta igual a um elemento com estilo de display: inline-block;
 * As outras propriedades seguem a mesma lógica;
 
+```bash
+    <div class="container">
+        <span class="block bg-red-300">SPAN por padrão não são elementos de bloco. Se tornaram pela classe.</span>
+        <span class="block bg-red-300">SPAN por padrão não são elementos de bloco. Se tornaram pela classe.</span>
+
+        <div class="inline-block bg-blue-500">DIV por padrão são elementos de bloco. Se tornaram inline-block pela
+            classe.</div>
+        <div class="inline-block bg-blue-500">DIV por padrão são elementos de bloco. Se tornaram inline-block pela
+            classe.</div>
+
+        <div class="bg-green-900 hidden">
+            Não estou aparecendo! Tenho a classe hidden.
+        </div>
+    </div>
+```
+
 <hr>
 
 ### Autor
