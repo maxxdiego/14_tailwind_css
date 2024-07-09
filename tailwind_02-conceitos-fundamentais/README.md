@@ -143,7 +143,30 @@ No exemplo abaixos, criamos um input que ao ser clicado (pseudo classe: focus) t
 * Primeiramente desenvolvemos o que precisamos e depois podemos transformar em um componente (via apply);
 * Essa abordagem é interessante pois nem sempre tudo é definido no CSS, talvez precisamo de uma esturtura de HTML diferenciada;
 
+Para criarmos um componente o primeiro passo é inclui-lo no arquivo css de input:
 
+```bash
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+    .btn-blue {
+        @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+    }
+    
+    .btn-blue:hover {
+        @apply bg-blue-700;
+    }
+```
+
+Após isso, utilizamos a classe criada em nosso elemento no HTML:
+
+```bash
+<button class="btn-blue">Botão</button>
+```
 
 ## Autor
 
