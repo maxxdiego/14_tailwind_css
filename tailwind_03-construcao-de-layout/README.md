@@ -44,7 +44,7 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
         <div class="inline-block bg-blue-500">DIV por padrão são elementos de bloco. Se tornaram inline-block pela
             classe.</div>
 
-        <div class="bg-green-900 hidden">
+        <div class="hidden bg-green-900">
             Não estou aparecendo! Tenho a classe hidden.
         </div>
     </div>
