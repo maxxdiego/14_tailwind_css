@@ -1,9 +1,6 @@
 # Tailwind CSS
 ![NPM](https://img.shields.io/npm/l/react)
 
-## Descrição
-:warning: Ainda em construção. :construction:
-
 ## Por que Tailwind?
 
 * Foco em utility e não componentes;
