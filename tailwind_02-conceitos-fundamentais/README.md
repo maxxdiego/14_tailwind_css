@@ -168,7 +168,12 @@ Após isso, utilizamos a classe criada em nosso elemento no HTML:
 * E desta maneira podemos criar diversas variações de componentes de forma simples;
 * Ou componentes únicos para o projeto;
 
-## Autor
+<hr>
 
+### Autor
 Prof. Diego Max da Silva<br>
 https://lattes.cnpq.br/4370663836049458
+
+### Referências:
+* _Curso: Tailwind CSS do básico ao avançado + Projetos_
+* _Hora de Codar - Escola de programação - Matheus Battisti_
