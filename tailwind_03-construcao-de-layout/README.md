@@ -19,7 +19,26 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 * Com border-box teremos uma largura total somada com padding e borders;
 * Com box-content teremos uma largura respeitando a medida e com padding e border passando a largura determinada;
 
+```bash
+    <div class="container bg-purple-700 border-2 border-purple-900 m-4 border-box p-10">
+        <p>Border box</p>
+    </div>
+
+    <div class="container bg-teal-400 border-2 border-teal-900 m-4 box-content p-10">
+        <p>Border content</p>
+    </div>
+```
+
+## Display
+* Colocando classes com valores da propriedade display, como block, podemos controlar este comportamento do elemento;
+* Então um elemento com classe inline-block, se comporta igual a um elemento com estilo de display: inline-block;
+* As outras propriedades seguem a mesma lógica;
+
 ## Autor
 
 Prof. Diego Max da Silva<br>
 https://lattes.cnpq.br/4370663836049458
+
+## Fontes:
+_Curso: Tailwind CSS do básico ao avançado + Projetos_
+_Hora de Codar - Escola de programação - Matheus Battisti_
