@@ -77,26 +77,43 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 
 ```bash
 Overflow hidden:
-        <div class="overflow-hidden h-16 m-6 bg-red-300">
-            <p>Testando overflow hidden</p>
-            <p>Testando overflow hidden</p>
-            <p>Testando overflow hidden</p>
-            <p>Testando overflow hidden</p>
-            <p>Testando overflow hidden</p>
-            <p>Testando overflow hidden</p>
-        </div>
+    <div class="overflow-hidden h-16 m-6 bg-red-300">
+        <p>Testando overflow hidden</p>
+        <p>Testando overflow hidden</p>
+        <p>Testando overflow hidden</p>
+        <p>Testando overflow hidden</p>
+        <p>Testando overflow hidden</p>
+        <p>Testando overflow hidden</p>
+    </div>
 ```
 
 ```bash
 Overflow auto:
-        <div class="overflow-auto h-16 m-6 bg-green-300">
-            <p>Testando overflow auto</p>
-            <p>Testando overflow auto</p>
-            <p>Testando overflow auto</p>
-            <p>Testando overflow auto</p>
-            <p>Testando overflow auto</p>
-            <p>Testando overflow auto</p>
+    <div class="overflow-auto h-16 m-6 bg-green-300">
+        <p>Testando overflow auto</p>
+        <p>Testando overflow auto</p>
+        <p>Testando overflow auto</p>
+        <p>Testando overflow auto</p>
+        <p>Testando overflow auto</p>
+        <p>Testando overflow auto</p>
+    </div>
+```
+
+## Posições e direções
+* Podemos controlar as posições dos elementos por classes também;
+* Neste caso o próprio nome da classe já é o da posição;
+* Exemplos: static, absolute, relative e etc;
+* Estes valores seriam relativos a: position:absolute;
+* As direções também podem ser adicionadas via classe, exemplo: top-2;
+* Obs: no Tailwind os números sempre são transferidos para rem, podemos converter para pixels com: 1rem = 16px (valor default);
+
+```bash
+    <div class="relative bg-pink-500">
+        Div relative
+        <div class="absolute top-0 right-0 bg-pink-900">
+            Div absolute
         </div>
+    </div>
 ```
 
 <hr>
