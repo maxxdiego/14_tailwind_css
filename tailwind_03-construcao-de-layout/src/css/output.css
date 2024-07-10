@@ -604,6 +604,10 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -612,12 +616,12 @@ video {
   top: 0px;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .z-10 {
   z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .float-right {
@@ -640,8 +644,20 @@ video {
   margin: 1.5rem;
 }
 
-.m-40 {
-  margin: 10rem;
+.m-8 {
+  margin: 2rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-14 {
+  margin: 3.5rem;
 }
 
 .mx-auto {
@@ -682,20 +698,24 @@ video {
   height: 5rem;
 }
 
-.h-0 {
-  height: 0px;
+.h-40 {
+  height: 10rem;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-60 {
+  height: 15rem;
 }
 
 .h-80 {
   height: 20rem;
 }
 
-.h-40 {
-  height: 10rem;
+.h-44 {
+  height: 11rem;
+}
+
+.h-48 {
+  height: 12rem;
 }
 
 .w-20 {
@@ -706,12 +726,28 @@ video {
   width: 10rem;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-60 {
+  width: 15rem;
 }
 
 .w-80 {
   width: 20rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .overflow-auto {
@@ -824,6 +860,11 @@ video {
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
 .bg-teal-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(45 212 191 / var(--tw-bg-opacity));
@@ -839,9 +880,29 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.bg-red-600 {
+.bg-yellow-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+}
+
+.bg-purple-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 213 255 / var(--tw-bg-opacity));
+}
+
+.bg-teal-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 246 228 / var(--tw-bg-opacity));
+}
+
+.bg-teal-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 251 241 / var(--tw-bg-opacity));
+}
+
+.bg-purple-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 232 255 / var(--tw-bg-opacity));
 }
 
 .p-10 {
