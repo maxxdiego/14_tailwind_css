@@ -1,0 +1,18 @@
+{
+  "name": "tailwind_04-flexbox",
+  "version": "1.0.0",
+  "description": "- Um elemento que possui uma determinada largura e que serve para incluir elementos dentro;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
