@@ -7,12 +7,46 @@
 * E flex-col para colunas;
 * Obs: Lembrando que o container de elementos deve receber a classe flex;
 
-- Um elemento que possui uma determinada largura e que serve para incluir elementos dentro;
-
+Flex row:
+```bash
+    <div class="flex flex-row bg-red-300">
+        <div class="bg-red-600 p-6 m-2">1</div>
+        <div class="bg-red-600 p-6 m-2">2</div>
+        <div class="bg-red-600 p-6 m-2">3</div>
+    </div>
+```
+Flex column:
+```bash
+    <div class="flex flex-row bg-red-300">
+        <div class="bg-red-600 p-6 m-2">1</div>
+        <div class="bg-red-600 p-6 m-2">2</div>
+        <div class="bg-red-600 p-6 m-2">3</div>
+    </div>
+```
+Flex row reverse:
+```bash
+    <div class="flex flex-row-reverse bg-green-300">
+        <div class="bg-green-600 p-6 m-2">1</div>
+        <div class="bg-green-600 p-6 m-2">2</div>
+        <div class="bg-green-600 p-6 m-2">3</div>
+    </div>
+```
+Flex column reverse:
+```bash
+    <div class="flex flex-col-reverse bg-pink-300">
+        <div class="bg-pink-600 p-6 m-2">1</div>
+        <div class="bg-pink-600 p-6 m-2">2</div>
+        <div class="bg-pink-600 p-6 m-2">3</div>
+    </div>
+```
+## Flex wrap
+* O wrap é a propriedade que controla como os itens se adaptarão ao container;
+* Com flex-no-wrap os itens tendem a ficar na mesma linha;
+* Com o flex-wrap os itens vão se encaixando em linhas abaixo, conforme o tamanho do container.
 
 ```bash
-
 ```
+
 
 <hr>
 
