@@ -1,0 +1,15 @@
+{
+  "name": "tailwind_05-grid",
+  "version": "1.0.0",
+  "description": "* Com o grid podemos criar uma estrutura muito fácil de página;\r * A classe grid-cols-x define o número de colunas em uma grid;\r * Onde x é o número de colunas desejadas;\r * Obs: a classe pai precisa conter a classe grid;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
