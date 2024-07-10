@@ -24,6 +24,31 @@ Grid com 2 colunas:
     </div>
 ```
 
+## Tamanho das colunas
+* Com a col-span-x podemos controlar o tamanho da coluna;
+* Onde x é o tamanho, baseado no número de colunas definido na classe pai;
+* Lembrando que essa classe vai nos elementos filhos do container de grid;
+
+```bash
+    <div class="grid grid-cols-4 m-2">
+        <div class="col-span-4 bg-blue-700">
+            Barra de navegação
+        </div>
+        <div class="col-span-1 bg-green-700">
+            <p>Barra lateral esquerda</p>
+        </div>
+        <div class="col-span-2 bg-green-300">
+            <p>Conteúdo</p>
+        </div>
+        <div class="col-span-1 bg-green-700">
+            <p>Barra lateral direita</p>
+        </div>
+        <div class="col-span-4 bg-blue-700">
+            Rodapé
+        </div>
+    </div>
+```
+
 <hr>
 
 ### Autor
