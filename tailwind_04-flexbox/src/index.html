@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/output.css">
     <title>Flexbox Tailwind CSS</title>
 </head>
+
 <body>
     <h1 class="text-3xl">Flex row</h1>
     <div class="flex flex-row bg-red-300">
@@ -40,9 +42,37 @@
     <br />
 
     <h1 class="text-3xl">Flex wrap</h1>
-
+    <div class="flex flex-wrap bg-red-100 w-60">
+        <div class="bg-red-200 p-6 m-2">1</div>
+        <div class="bg-red-300 p-6 m-2">2</div>
+        <div class="bg-red-400 p-6 m-2">3</div>
+        <div class="bg-red-500 p-6 m-2">4</div>
+        <div class="bg-red-600 p-6 m-2">5</div>
+        <div class="bg-red-700 p-6 m-2">6</div>
+    </div>
 
     <br />
 
+    <h1 class="text-3xl">Flex</h1>
+    <div class="container flex bg-green-200 p-8">
+        <div class="flex-1 bg-green-800">1</div>
+        <div class="flex-1 bg-green-600">2</div>
+        <div class="flex-none bg-green-400">3</div>
+    </div>
+
+    <br />
+
+    <h1 class="text-3xl">Order</h1>
+    <div class="flex flex-wrap bg-red-100">
+        <div class="bg-purple-200 p-6 m-2 md:order-last">1</div>
+        <div class="bg-purple-300 p-6 m-2 md:order-5">2</div>
+        <div class="bg-purple-400 p-6 m-2 md:order-4">3</div>
+        <div class="bg-purple-500 p-6 m-2 md:order-3">4</div>
+        <div class="bg-purple-600 p-6 m-2 md:order-2">5</div>
+        <div class="bg-purple-700 p-6 m-2 md:order-first">6</div>
+    </div>
+    <br />
+
 </body>
+
 </html>
