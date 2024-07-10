@@ -588,6 +588,10 @@ video {
   }
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .absolute {
   position: absolute;
 }
@@ -626,6 +630,10 @@ video {
 
 .m-6 {
   margin: 1.5rem;
+}
+
+.m-40 {
+  margin: 10rem;
 }
 
 .mx-auto {
