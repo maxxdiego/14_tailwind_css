@@ -1,9 +1,10 @@
 # 03 - Construção de layout
 
 ## Container
-* Um elemento que possui uma determinada largura e que serve para incluir elementos dentro;
-* O container com as classes de responsividade (sm, md, lg, xl) podemos setar uma max-width no elemento;
-* Podemos aplicar com a classe container;
+
+- Um elemento que possui uma determinada largura e que serve para incluir elementos dentro;
+- O container com as classes de responsividade (sm, md, lg, xl) podemos setar uma max-width no elemento;
+- Podemos aplicar com a classe container;
 
 No exemplo abaixo, criaremos um container com cor de background verde e quando atingir md, ficará azul:
 
@@ -15,9 +16,9 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 
 ## Box sizing
 
-* Com as classes border-box e border-content podemos declarar como o elemento calcula o seu tamanho total;
-* Com border-box teremos uma largura total somada com padding e borders;
-* Com box-content teremos uma largura respeitando a medida e com padding e border passando a largura determinada;
+- Com as classes border-box e border-content podemos declarar como o elemento calcula o seu tamanho total;
+- Com border-box teremos uma largura total somada com padding e borders;
+- Com box-content teremos uma largura respeitando a medida e com padding e border passando a largura determinada;
 
 ```bash
     <div class="container bg-purple-700 border-2 border-purple-900 m-4 border-box p-10">
@@ -30,9 +31,10 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 ```
 
 ## Display
-* Colocando classes com valores da propriedade display, como block, podemos controlar este comportamento do elemento;
-* Então um elemento com classe inline-block, se comporta igual a um elemento com estilo de display: inline-block;
-* As outras propriedades seguem a mesma lógica;
+
+- Colocando classes com valores da propriedade display, como block, podemos controlar este comportamento do elemento;
+- Então um elemento com classe inline-block, se comporta igual a um elemento com estilo de display: inline-block;
+- As outras propriedades seguem a mesma lógica;
 
 ```bash
     <div class="container">
@@ -50,12 +52,61 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
     </div>
 ```
 
+## Floats e clear
+
+- Podemos controlar a propriedade float do elemento com classes float-\*;
+- Onde \* é o tipo de float que desejamos, por exemplo: right ou left;
+- O clear segue o mesmo padrão, as classes tem o início de clear-\*;
+- Onde \* pode ser both, por exemplo;
+- Obs: após o Grid e Flexbox, o float vem sendo pouco utilizado nos layouts;
+
+```bash
+    <div class="bg-gray-500 float-right">Float right</div>
+    <div class="bg-gray-700 float-left">Float left</div>
+    <div class="clear-both"></div>
+    <div class="bg-gray-500 float-right">Float right</div>
+    <div class="bg-gray-700 float-left">Float left</div>
+```
+
+## Overflow
+
+- O overflow é como controlamos quando o conteúdo de um elemento é muito grande para o mesmo;
+- Podemos criar ou eliminar o scroll, por exemplo;
+- Inserimos a classe overflow-_, onde _ é o valor da prorpeidade, como: none ou auto;
+- Podemos controlar os eixos também com: overflow-y-*
+
+```bash
+Overflow hidden:
+        <div class="overflow-hidden h-16 m-6 bg-red-300">
+            <p>Testando overflow hidden</p>
+            <p>Testando overflow hidden</p>
+            <p>Testando overflow hidden</p>
+            <p>Testando overflow hidden</p>
+            <p>Testando overflow hidden</p>
+            <p>Testando overflow hidden</p>
+        </div>
+```
+
+```bash
+Overflow auto:
+        <div class="overflow-auto h-16 m-6 bg-green-300">
+            <p>Testando overflow auto</p>
+            <p>Testando overflow auto</p>
+            <p>Testando overflow auto</p>
+            <p>Testando overflow auto</p>
+            <p>Testando overflow auto</p>
+            <p>Testando overflow auto</p>
+        </div>
+```
+
 <hr>
 
 ### Autor
+
 Prof. Diego Max da Silva<br>
 https://lattes.cnpq.br/4370663836049458
 
 ### Referências:
-* _Curso: Tailwind CSS do básico ao avançado + Projetos_
-* _Hora de Codar - Escola de programação - Matheus Battisti_
+
+- _Curso: Tailwind CSS do básico ao avançado + Projetos_
+- _Hora de Codar - Escola de programação - Matheus Battisti_
