@@ -6,8 +6,22 @@
 * Onde x é o número de colunas desejadas;
 * Obs: a classe pai precisa conter a classe grid; 
 
+Grid com 4 colunas: 
 ```bash
- 
+     <div class="grid bg-red-200 grid-cols-4">
+        <div class="bg-red-600">1</div>
+        <div class="bg-red-500">2</div>
+        <div class="bg-red-400">3</div>
+        <div class="bg-red-300">4</div>
+    </div>
+```
+
+Grid com 2 colunas:
+```bash
+    <div class="grid bg-green-200 grid-cols-2">
+        <div class="bg-green-600">1</div>
+        <div class="bg-green-500">2</div>
+    </div>
 ```
 
 <hr>
