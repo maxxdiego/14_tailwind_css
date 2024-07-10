@@ -106,8 +106,20 @@
 
     <h3 class="text-3xl">Visibility</h3>
     <div class="container bg-red-400 invisible m-4">
-        <p>Tô invisível</p>
+        <p>Estou oculto!</p>
     </div>
+    <div class="container bg-red-400 m-4 visible">
+        <p>Estou aparecendo!</p>
+    </div>
+
+    <br />
+
+    <h3 class="text-3xl">Z-index</h3>
+    <div class="container relative">
+        <div class="bg-red-300 h-20 w-20 p-6 absolute z-10">Na frente</div>
+        <div class="bg-red-600 h-20 w-20 p-6 absolute m-4">Atrás</div>
+    </div>
+
 </body>
 
 </html>

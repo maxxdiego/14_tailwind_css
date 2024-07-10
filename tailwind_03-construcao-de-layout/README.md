@@ -1,6 +1,7 @@
 # 03 - Construção de layout
 
 ## Container
+
 - Um elemento que possui uma determinada largura e que serve para incluir elementos dentro;
 - O container com as classes de responsividade (sm, md, lg, xl) podemos setar uma max-width no elemento;
 - Podemos aplicar com a classe container.
@@ -14,6 +15,7 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 ```
 
 ## Box sizing
+
 - Com as classes border-box e border-content podemos declarar como o elemento calcula o seu tamanho total;
 - Com border-box teremos uma largura total somada com padding e borders;
 - Com box-content teremos uma largura respeitando a medida e com padding e border passando a largura determinada.
@@ -29,6 +31,7 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 ```
 
 ## Display
+
 - Colocando classes com valores da propriedade display, como block, podemos controlar este comportamento do elemento;
 - Então um elemento com classe inline-block, se comporta igual a um elemento com estilo de display: inline-block;
 - As outras propriedades seguem a mesma lógica.
@@ -50,6 +53,7 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 ```
 
 ## Floats e clear
+
 - Podemos controlar a propriedade float do elemento com classes float-\*;
 - Onde \* é o tipo de float que desejamos, por exemplo: right ou left;
 - O clear segue o mesmo padrão, as classes tem o início de clear-\*;
@@ -65,10 +69,11 @@ No exemplo abaixo, criaremos um container com cor de background verde e quando a
 ```
 
 ## Overflow
+
 - O overflow é como controlamos quando o conteúdo de um elemento é muito grande para o mesmo;
 - Podemos criar ou eliminar o scroll, por exemplo;
 - Inserimos a classe overflow-_, onde _ é o valor da prorpeidade, como: none ou auto;
-- Podemos controlar os eixos também com: overflow-y-*
+- Podemos controlar os eixos também com: overflow-y-\*
 
 ```bash
 Overflow hidden:
@@ -95,12 +100,13 @@ Overflow auto:
 ```
 
 ## Posições e direções
-* Podemos controlar as posições dos elementos por classes também;
-* Neste caso o próprio nome da classe já é o da posição;
-* Exemplos: static, absolute, relative e etc;
-* Estes valores seriam relativos a: position:absolute;
-* As direções também podem ser adicionadas via classe, exemplo: top-2;
-* Obs: no Tailwind os números sempre são transferidos para rem, podemos converter para pixels com: 1rem = 16px (valor default).
+
+- Podemos controlar as posições dos elementos por classes também;
+- Neste caso o próprio nome da classe já é o da posição;
+- Exemplos: static, absolute, relative e etc;
+- Estes valores seriam relativos a: position:absolute;
+- As direções também podem ser adicionadas via classe, exemplo: top-2;
+- Obs: no Tailwind os números sempre são transferidos para rem, podemos converter para pixels com: 1rem = 16px (valor default).
 
 ```bash
     <div class="relative bg-pink-500">
@@ -112,24 +118,35 @@ Overflow auto:
 ```
 
 ## Visibilidade
-* Podemos alterar a propriedade visibility com duas classes;
-* visible = visibility: visible;
-* invisible = visibility: hidden;
-* Utilizamos para exibir ou esconder elementos;
-* É diferente do hidden pois seu espaço contendo margens por exemplo ainda é exibido.
+
+- Podemos alterar a propriedade visibility com duas classes;
+- visible = visibility: visible;
+- invisible = visibility: hidden;
+- Utilizamos para exibir ou esconder elementos;
+- É diferente do hidden pois seu espaço contendo margens por exemplo ainda é exibido.
 
 ```bash
     <div class="container bg-red-400 m-4 invisible">
-        <p>Estou oculto</p>
+        <p>Estou oculto!</p>
+    </div>
+    <div class="container bg-red-400 m-4 visible">
+        <p>Estou aparecendo!</p>
     </div>
 ```
 
 ## Z-index
-* Podemos controlar o z-index pelo Tailwind também;
-* Esta propriedade controla a sobreposição de elementos na página;
-* O valor a ser colocado na classe é z-*;
-* Onde * é o número de indexação, como 10, 20 ou 30.
 
+- Podemos controlar o z-index pelo Tailwind também;
+- Esta propriedade controla a sobreposição de elementos na página;
+- O valor a ser colocado na classe é z-*;
+- Onde * é o número de indexação, como 10, 20 ou 30.
+
+```bash
+    <div class="container relative">
+        <div class="bg-red-300 h-20 w-20 p-6 absolute z-10">Na frente</div>
+        <div class="bg-red-600 h-20 w-20 p-6 absolute m-4">Atrás</div>
+    </div>
+```
 
 <hr>
 
