@@ -68,11 +68,25 @@ Grid com 2 colunas:
     </div>
 ```
 
-## Espaço entre colunas e linhas
+## Espaço entre colunas e linhas (gap)
 * Podemos controlar o espaçamento das colunas e linhas com gap;
 * Inserimos a classe gap-x, no container principal;
 * Onde x é o tamanho do espaçamento;
 * É possível também mudar o espaçamento pelo eixo x ou y;
+
+```bash
+    <div class="grid grid-cols-3 m-4 gap-2">
+        <div class="bg-blue-400">1</div>
+        <div class="bg-blue-600">2</div>
+        <div class="bg-blue-400">3</div>
+        <div class="bg-blue-600">4</div>
+        <div class="bg-blue-400">5</div>
+        <div class="bg-blue-600">6</div>
+        <div class="bg-blue-400">7</div>
+        <div class="bg-blue-600">8</div>
+        <div class="bg-blue-400">9</div>
+    </div>
+```
 
 <hr>
 
