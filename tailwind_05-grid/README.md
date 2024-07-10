@@ -49,6 +49,31 @@ Grid com 2 colunas:
     </div>
 ```
 
+## Quantidade de rows
+* Podemos também especificar a quantidade de rows que um grid possui;
+* A classe para este fim é: grid-rows-x;
+* Onde x é o número de linhas que o container possuirá;
+
+```bash
+    <div class="grid grid-rows-3 grid-flow-col m-4">
+        <div class="bg-green-400">1</div>
+        <div class="bg-green-600">2</div>
+        <div class="bg-green-400">3</div>
+        <div class="bg-green-600">4</div>
+        <div class="bg-green-400">5</div>
+        <div class="bg-green-600">6</div>
+        <div class="bg-green-400">7</div>
+        <div class="bg-green-600">8</div>
+        <div class="bg-green-400">9</div>
+    </div>
+```
+
+## Espaço entre colunas e linhas
+* Podemos controlar o espaçamento das colunas e linhas com gap;
+* Inserimos a classe gap-x, no container principal;
+* Onde x é o tamanho do espaçamento;
+* É possível também mudar o espaçamento pelo eixo x ou y;
+
 <hr>
 
 ### Autor
