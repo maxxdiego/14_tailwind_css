@@ -1,0 +1,46 @@
+# 05 - Customização do Tailwind
+
+## Como customizar o Tailwind
+* Vamos adicionar as customizações no arquivo tailwind.config.js;
+* Lá temos algumas seções:
+* theme: estilos para o nosso projeto;
+* extend: extensão das nossas classes do projeto;
+* plugins: adicionar plugins de Tailwind externos;
+* prefix: adiciona um prefixo as classes do Tailwind;
+
+```bash
+tailwind.config.js:
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+```
+
+## Customizando o tema
+* A chave que iremos alterar é a theme;
+* Aqui vamos inserir regras que são parecidas com as do Tailwind, gerando o efeito de estender o framework;
+* Se colocarmos regras com o mesmo nome, iremos gerar um override, ou seja, substituição.
+
+
+Grid com 4 colunas: 
+```bash
+
+```
+
+<hr>
+
+### Autor
+
+Prof. Diego Max da Silva<br>
+https://lattes.cnpq.br/4370663836049458
+
+### Referências:
+
+- _Curso: Tailwind CSS do básico ao avançado + Projetos_
+- _Hora de Codar - Escola de programação - Matheus Battisti_

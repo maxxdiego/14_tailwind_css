@@ -1,0 +1,15 @@
+{
+  "name": "tailwind_06-customizacao-do-tailwind",
+  "version": "1.0.0",
+  "description": "* Vamos adicionar as customizações no arquivo tailwind.config.js;\r * Lá temos algumas seções:\r * theme: estilos para o nosso projeto;\r * extend: extensão das nossas classes do projeto;\r * plugins: adicionar plugins de Tailwind externos;\r * prefix: adiciona um prefixo as classes do Tailwind;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
