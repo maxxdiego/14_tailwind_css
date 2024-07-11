@@ -57,6 +57,31 @@ index.html:
 * Podemos adicionar novos, apenas criando nomenclaturas diferentes, como por exemplo: 'tablet': '640px';
 * Ou também colocar breakpoints para max-width, que é o contrário do que o Tailwind nos dá.
 
+```bash
+tailwind.config.js:
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*{html,js}"],
+  theme: {
+      screens: {
+        'tablet': '640px',
+        'cel': {'max': '400px'}
+      },
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+```bash
+index.html:
+
+    <h1 class="text-black text-2xl tablet:text-5xl tablet:text-red-600">Texto 01</h1>
+    <h1 class="text-red-900 text-2xl tablet:text-xs tablet:text-blue-900 ">Texto 02</h1>
+    <h1 class="text-blue-600 text-xl cel:text-orange-600 ">Testando max-width</h1>
+```
+
 <hr>
 
 ### Autor
