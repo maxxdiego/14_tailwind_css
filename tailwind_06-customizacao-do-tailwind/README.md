@@ -82,6 +82,49 @@ index.html:
     <h1 class="text-blue-600 text-xl cel:text-orange-600 ">Testando max-width</h1>
 ```
 
+## Adicionando cores e estendendo
+* Na chave colors de theme, podemos adicionar novas cores, o que é muito normal para projetos com design mais avançado;
+* O padrão é nomedacor: hexadecimal;
+* Assim, após o build teremos acesso a nova cor;
+* Podemos também criar uma estrutura de objeto, para simular uma paleta de cores.
+
+```bash
+tailwind.config.js:
+
+/** @type {import('tailwindcss').Config} */
+
+const { colors } = require('tailwindcss/defaultTheme')
+
+module.exports = {
+  content: ["./src/**/*{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        'new-blue': '#243C5A',
+        gray: {
+          ...colors.gray,
+          '900': '#999'
+        }
+      }
+    },
+  },
+  plugins: [],
+}
+
+```
+
+```bash
+index.html:
+
+    <h1 class="text-new-blue text-2xl">Cor personalizada</h1>
+    <p class="text-3xl text-gray-900">Texto cinza custom</p>
+```
+
+## Alterando o espaçamento
+* Na chave spacing, podemos alterar o espaçamento do projeto;
+* Podemos definir nossos próprios;
+* Ou utilizar o extend para adicionar mais espaçamentos no padrão do Tailwind por rem, por exemplo;
+
 <hr>
 
 ### Autor
