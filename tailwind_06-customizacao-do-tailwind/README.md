@@ -125,6 +125,39 @@ index.html:
 * Podemos definir nossos próprios;
 * Ou utilizar o extend para adicionar mais espaçamentos no padrão do Tailwind por rem, por exemplo;
 
+```bash
+tailwind.config.js:
+
+/** @type {import('tailwindcss').Config} */
+
+const { colors } = require('tailwindcss/defaultTheme')
+
+module.exports = {
+  content: ["./src/**/*{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        'new-blue': '#243C5A',
+        gray: {
+          ...colors.gray,
+          '900': '#999'
+        }
+      },
+      spacing: {
+        '50': '20rem'
+      }
+    },
+  },
+  plugins: [],
+}
+```
+
+```bash
+index.html:
+
+<p class="text-3xl text-gray-900 p-10 m-50 h-50">Texto cinza custom</p>
+```
+
 <hr>
 
 ### Autor

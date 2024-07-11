@@ -554,6 +554,26 @@ video {
   --tw-contain-style:  ;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
+}
+
+.m-50 {
+  margin: 20rem;
+}
+
+.h-50 {
+  height: 20rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -564,12 +584,12 @@ video {
   line-height: 2.25rem;
 }
 
-.text-new-blue {
-  --tw-text-opacity: 1;
-  color: rgb(36 60 90 / var(--tw-text-opacity));
-}
-
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+
+.text-new-blue {
+  --tw-text-opacity: 1;
+  color: rgb(36 60 90 / var(--tw-text-opacity));
 }
