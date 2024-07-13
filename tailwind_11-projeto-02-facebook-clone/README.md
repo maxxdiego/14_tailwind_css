@@ -1,4 +1,4 @@
-# Projeto 01 - Spotify Clone
+# Projeto 02 - Facebook Clone
 
 <hr>
 
