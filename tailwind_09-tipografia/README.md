@@ -194,7 +194,9 @@ index.html:
 * Onde * podemos inserir valores como: left, right e center;
 
 ```bash
-
+    <p class="bg-purple-300 text-2xl text-white text-left p-2">Texto a esquerda</p>
+    <p class="bg-purple-400 text-2xl text-white text-center p-2">Texto no centro</p>
+    <p class="bg-purple-500 text-2xl text-white text-right p-2">Texto a direita</p>
 ```
 
 ## Cor de texto
@@ -205,7 +207,16 @@ index.html:
 * E é claro, podemos customizar completamente as cores;
 
 ```bash
-
+    <p class="text-3xl text-indigo-50">Testando tons de indigo</p>
+    <p class="text-3xl text-indigo-100">Testando tons de indigo</p>
+    <p class="text-3xl text-indigo-200">Testando tons de indigo</p>
+    <p class="text-3xl text-indigo-300">Testando tons de indigo</p>
+    <p class="text-3xl text-indigo-400">Testando tons de indigo</p>
+    <p class="text-3xl text-indigo-500">Testando tons de indigo</p>
+    <p class="text-3xl text-indigo-600">Testando tons de indigo</p>
+    <p class="text-3xl text-indigo-700">Testando tons de indigo</p>
+    <p class="text-3xl text-indigo-800">Testando tons de indigo</p>
+    <p class="text-3xl text-indigo-900">Testando tons de indigo</p>
 ```
 
 ## Decoration e transform
@@ -216,7 +227,10 @@ index.html:
 * Utilizamos classes como: lowercase e uppercase;
 
 ```bash
-
+    <p class="text-2xl underline">Este texto vai ter underline</p>
+    <p class="text-2xl line-through text-orange-500">Este texto vai ter line-through</p>
+    <p class="text-2xl lowercase">ESTE TEXTO VAI FICAR TODO EM MINÚSCULO</p>
+    <p class="text-2xl uppercase">este texto vai ficar todo em maiúsculo</p>
 ```
 
 <hr>
