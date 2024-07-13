@@ -1,7 +1,7 @@
 {
-  "name": "tailwind_10-backgrounds",
+  "name": "tailwind_07-projeto-02-facebook-clone",
   "version": "1.0.0",
-  "description": "*",
+  "description": "<hr>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
