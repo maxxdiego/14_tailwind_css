@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'arial': 'Arial'
+      },
+      fontSize: {
+        '12xl': '8rem'
+      }
+    },
   },
   plugins: [],
 }
