@@ -1,6 +1,10 @@
 # Tailwind CSS
 ![NPM](https://img.shields.io/npm/l/react)
 
+## Descrição:
+
+Tailwind CSS é um framework de CSS utilitário que facilita a criação de interfaces de usuário personalizadas de maneira rápida e eficiente. Ao invés de fornecer componentes predefinidos, como outros frameworks, Tailwind oferece classes utilitárias de baixo nível que podem ser combinadas para construir qualquer design diretamente no HTML.
+
 ## Por que Tailwind?
 
 * Foco em utility e não componentes;
@@ -313,5 +317,5 @@ Prof. Diego Max da Silva<br>
 https://lattes.cnpq.br/4370663836049458
 
 ### Referências:
-* _Curso: Tailwind CSS do básico ao avançado + Projetos_
+* _Tailwind CSS do básico ao avançado + Projetos_
 * _Hora de Codar - Escola de programação - Matheus Battisti_
